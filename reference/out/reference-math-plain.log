@@ -1,0 +1,972 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=latex 2017.3.24)  6 MAY 2019 14:45
+entering extended mode
+**./out/reference-math-plain.tex
+(./out/reference-math-plain.tex
+LaTeX2e <2017/01/01> patch level 3
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(c:/texlive/2016/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+(c:/texlive/2016/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (out/madoko2.sty (c:/texlive/2016/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+(c:/texlive/2016/texmf-dist/tex/latex/tools/array.sty
+Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: dvips.def on input line 147.
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-def/dvips.def
+File: dvips.def 2016/07/10 v3.1a Driver-dependent file (DPC,SPQR)
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+\everycr=\toks15
+\minrowclearance=\skip45
+) (c:/texlive/2016/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) (out/options.sty
+Package: options 2015/03/01, Daan Leijen, Provides convenient path-value (or key-value) options
+(c:/texlive/2016/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2017/01/02 v2.4 e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count88
+)
+\opt@nesting=\count89
+\opt@idx=\count90
+\opt@choiceord=\count91
+) (c:/texlive/2016/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2013/04/04 v0.2 Provides if(tex) conditional for PDFTeX, XeTeX, and LuaTeX
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+(c:/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (c:/texlive/2016/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 99.
+)
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
+) (out/longfbox.sty
+Package: longfbox 2015/12/01, Daan Leijen, Provides long fbox that can break over pages
+(out/longbox.sty
+Package: longbox 2015/12/01, Daan Leijen, Provides basic longbox that can break over pages
+(c:/texlive/2016/texmf-dist/tex/latex/mdwtools/footnote.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box26
+\fn@width=\dimen107
+)
+\lb@prevdepth=\skip46
+\lb@freevspace=\skip47
+\lb@headbox=\box27
+\lb@savebox=\box28
+\lb@mainbox=\box29
+\lb@usevbox=\count92
+\lb@width=\skip48
+\lb@height=\skip49
+\lb@skiptop=\skip50
+\lb@skipright=\skip51
+\lb@skipbottom=\skip52
+\lb@skipleft=\skip53
+\lb@skipbreaktop=\skip54
+\lb@skipbreakbottom=\skip55
+\lb@outerwidth=\skip56
+\lb@extrasplit=\skip57
+\lb@textalign=\count93
+\lb@baseline=\count94
+\lb@neededvspace=\skip58
+\lb@splitheight=\skip59
+\lb@insurance=\skip60
+\/longbox/@part-height=\skip61
+\/longbox/@part-width=\skip62
+\/longbox/@part-depth=\skip63
+\/longbox/@content-box-height=\skip64
+\/longbox/@content-box-width=\skip65
+\/longbox/@content-box-depth=\skip66
+\/longbox/@breakat-previous=\skip67
+\/longbox/@lower=\skip68
+\/longbox/split-minimum=\skip69
+\/longbox/split-badness=\skip70
+\/longbox/raise=\skip71
+\/longbox/height=\skip72
+\/longbox/width=\skip73
+\/longbox/outer-height=\skip74
+\/longbox/outer-width=\skip75
+\/longbox/skip-top=\skip76
+\/longbox/skip-right=\skip77
+\/longbox/skip-bottom=\skip78
+\/longbox/skip-left=\skip79
+\/longbox/skip-break-bottom=\skip80
+\/longbox/skip-break-top=\skip81
+) (c:/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+(c:/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: dvips.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-dvips.def on input line 121.
+(c:/texlive/2016/texmf-dist/tex/latex/pict2e/p2e-dvips.def
+File: p2e-dvips.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks17
+\@arclen=\dimen108
+\@arcrad=\dimen109
+\@tempdimd=\dimen110
+) (out/ellipse.sty
+Package: ellipse 2004/11/05 v1.0 .dtx ellipse file
+)
+\fbox@oct=\count95
+\fbox@quad=\count96
+\fbox@diaq=\count97
+\fbox@sign=\count98
+\fbox@anglestart=\skip82
+\fbox@angleend=\skip83
+\fbox@dash=\skip84
+\fbox@dashskip=\skip85
+\fbox@anglecur=\skip86
+\fbox@dashangle=\skip87
+\fbox@dashskipangle=\skip88
+\fbox@delta=\skip89
+\fbox@from=\skip90
+\fbox@to=\skip91
+\/fbox/padding-top=\skip92
+\/fbox/padding-right=\skip93
+\/fbox/padding-bottom=\skip94
+\/fbox/padding-left=\skip95
+\/fbox/padding-break-top=\skip96
+\/fbox/padding-break-bottom=\skip97
+\/fbox/margin-top=\skip98
+\/fbox/margin-right=\skip99
+\/fbox/margin-bottom=\skip100
+\/fbox/margin-left=\skip101
+\/fbox/margin-break-top=\skip102
+\/fbox/margin-break-bottom=\skip103
+\/fbox/border-top-width=\skip104
+\/fbox/border-right-width=\skip105
+\/fbox/border-bottom-width=\skip106
+\/fbox/border-left-width=\skip107
+\/fbox/border-break-top-width=\skip108
+\/fbox/border-break-bottom-width=\skip109
+\/fbox/@lower=\skip110
+\/fbox/@padding-box-height=\skip111
+\/fbox/@padding-box-depth=\skip112
+\/fbox/@padding-box-width=\skip113
+\/fbox/@border-box-width=\skip114
+\/fbox/@border-box-height=\skip115
+\/fbox/@border-box-depth=\skip116
+\/fbox/@border-top-left-radius-x=\skip117
+\/fbox/@border-top-right-radius-x=\skip118
+\/fbox/@border-bottom-left-radius-x=\skip119
+\/fbox/@border-bottom-right-radius-x=\skip120
+\/fbox/@border-top-left-radius-y=\skip121
+\/fbox/@border-top-right-radius-y=\skip122
+\/fbox/@border-bottom-left-radius-y=\skip123
+\/fbox/@border-bottom-right-radius-y=\skip124
+\/fbox/@border-top-left-ix=\skip125
+\/fbox/@border-top-left-iy=\skip126
+\/fbox/@border-top-right-ix=\skip127
+\/fbox/@border-top-right-iy=\skip128
+\/fbox/@border-bottom-left-ix=\skip129
+\/fbox/@border-bottom-left-iy=\skip130
+\/fbox/@border-bottom-right-ix=\skip131
+\/fbox/@border-bottom-right-iy=\skip132
+\/fbox/@border-top-left-phi=\skip133
+\/fbox/@border-top-right-phi=\skip134
+\/fbox/@border-bottom-left-phi=\skip135
+\/fbox/@border-bottom-right-phi=\skip136
+) (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2016/11/05 v2.16a AMS math features
+\@mathmargin=\skip137
+For additional information on amsmath, use the `?' option.
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen111
+)) (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen112
+) (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box30
+\strutbox@=\box31
+\big@size=\dimen113
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip10
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks19
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks20
+\eqnshift@=\dimen114
+\alignsep@=\dimen115
+\tagshift@=\dimen116
+\tagwidth@=\dimen117
+\totwidth@=\dimen118
+\lineht@=\dimen119
+\@envbody=\toks21
+\multlinegap=\skip138
+\multlinetaggap=\skip139
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+) (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (c:/texlive/2016/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+) (c:/texlive/2016/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+Package: stmaryrd 1994/03/03 St Mary's Road symbol package
+\symstmry=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
+(Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
+) (c:/texlive/2016/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2017/02/22 v2.0g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+) (c:/texlive/2016/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+(c:/texlive/2016/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+)) (c:/texlive/2016/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+) (c:/texlive/2016/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen120
+\Hy@linkcounter=\count111
+\Hy@pagecounter=\count112
+(c:/texlive/2016/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count113
+(c:/texlive/2016/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4498.
+Package hyperref Info: Link nesting OFF on input line 4503.
+Package hyperref Info: Hyper index ON on input line 4506.
+Package hyperref Info: Plain pages OFF on input line 4513.
+Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4751.
+\c@Hy@tempcnt=\count114
+(c:/texlive/2016/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5104.
+\XeTeXLinkMargin=\dimen121
+\Fld@menulength=\count115
+\Field@Width=\dimen122
+\Fld@charsize=\dimen123
+Package hyperref Info: Hyper figures OFF on input line 6358.
+Package hyperref Info: Link nesting OFF on input line 6363.
+Package hyperref Info: Hyper index ON on input line 6366.
+Package hyperref Info: backreferencing OFF on input line 6373.
+Package hyperref Info: Link coloring OFF on input line 6378.
+Package hyperref Info: Link coloring with OCG OFF on input line 6383.
+Package hyperref Info: PDF/A mode OFF on input line 6388.
+LaTeX Info: Redefining \ref on input line 6428.
+LaTeX Info: Redefining \pageref on input line 6432.
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+
+Package hyperref Message: Driver (default): hdvips.
+
+(c:/texlive/2016/texmf-dist/tex/latex/hyperref/hdvips.def
+File: hdvips.def 2017/03/14 v6.85a Hyperref driver for dvips
+(c:/texlive/2016/texmf-dist/tex/latex/hyperref/pdfmark.def
+File: pdfmark.def 2017/03/14 v6.85a Hyperref definitions for pdfmark specials
+\pdf@docset=\toks23
+\pdf@box=\box32
+\pdf@toks=\toks24
+\pdf@defaulttoks=\toks25
+\HyField@AnnotCount=\count119
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
+)
+\Hy@SectionHShift=\skip140
+)) (c:/texlive/2016/texmf-dist/tex/latex/oberdiek/bookmark.sty
+Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
+(c:/texlive/2016/texmf-dist/tex/latex/oberdiek/bkm-dvips.def
+File: bkm-dvips.def 2016/05/17 v1.26 bookmark driver for dvips (HO)
+\BKM@id=\count122
+))
+Package hyperref Info: Option `colorlinks' set `true' on input line 87.
+\px=\skip141
+\c@md@targetcount=\count123
+\mdcompactskip=\skip142
+\mdcompacttopsep=\skip143
+\dim@rem=\skip144
+\dim@ch=\skip145
+\md@height=\skip146
+\dim@marginbottom=\skip147
+\dim@paddingbottom=\skip148
+\md@interaction=\count124
+\mddefinitionsskip=\skip149
+\md@captionlen=\skip150
+\mdtoclevel=\count125
+\c@mdtoclevelbold=\count126
+\c@mdtocleveldots=\count127
+\mdtocskip=\skip151
+\mdpreskip=\skip152
+\presp=\skip153
+\md@postskip=\skip154
+\ppresp=\skip155
+\md@thmcaption=\box33
+\md@defaultcolwidth=\skip156
+\mdtabularskip=\skip157
+\mdbibindentunit=\skip158
+\c@md@authorcount=\count128
+\c@mdx@authorcount=\count129
+\c@@mdTargetCount=\count130
+\@snippetBox=\box34
+\@snippetWidth=\skip159
+\@snippetHeight=\skip160
+\@snippetDepth=\skip161
+\c@snippets=\count131
+) (c:/texlive/2016/texmf-dist/tex/generic/xypic/xypic.sty (c:/texlive/2016/texmf-dist/tex/generic/xypic/xy.sty (c:/texlive/2016/texmf-dist/tex/generic/xypic/xy.tex Bootstrap'ing: catcodes, docmode, (c:/texlive/2016/texmf-dist/tex/generic/xypic/xyrecat.tex) (c:/texlive/2016/texmf-dist/tex/generic/xypic/xyidioms.tex)
+
+ Xy-pic version 3.8.9 <2013/10/06>
+ Copyright (c) 1991-2013 by Kristoffer H. Rose <krisrose@tug.org> and others
+ Xy-pic is free software: see the User's Guide for details.
+
+Loading kernel: messages; fonts; allocations: state,
+\X@c=\dimen124
+\Y@c=\dimen125
+\U@c=\dimen126
+\D@c=\dimen127
+\L@c=\dimen128
+\R@c=\dimen129
+\Edge@c=\toks26
+\X@p=\dimen130
+\Y@p=\dimen131
+\U@p=\dimen132
+\D@p=\dimen133
+\L@p=\dimen134
+\R@p=\dimen135
+\Edge@p=\toks27
+\X@origin=\dimen136
+\Y@origin=\dimen137
+\X@xbase=\dimen138
+\Y@xbase=\dimen139
+\X@ybase=\dimen140
+\Y@ybase=\dimen141
+\X@min=\dimen142
+\Y@min=\dimen143
+\X@max=\dimen144
+\Y@max=\dimen145
+\lastobjectbox@=\box35
+\zerodotbox@=\box36
+\almostz@=\dimen146
+direction,
+\d@X=\dimen147
+\d@Y=\dimen148
+\K@=\count132
+\KK@=\count133
+\Direction=\count134
+\K@dXdY=\dimen149
+\K@dYdX=\dimen150
+\xyread@=\read1
+\xywrite@=\write3
+\csp@=\count135
+\quotPTK@=\dimen151
+utility macros; pictures: \xy, positions,
+\swaptoks@@=\toks28
+\connectobjectbox@@=\box37
+objects,
+\styletoks@=\toks29
+decorations; kernel objects: directionals, circles, text; options; algorithms: directions, edges, connections;  Xy-pic loaded)
+
+LaTeX Warning: You have requested package `xypic',
+               but the package provides `xy'.
+
+Package: xy 2013/10/06 Xy-pic version 3.8.9
+(c:/texlive/2016/texmf-dist/tex/generic/xypic/xycurve.tex  Xy-pic option: Curve and Spline extension v.3.12 curve,
+\crv@cnt@=\count136
+\crvpts@=\toks30
+\splinebox@=\box38
+\splineval@=\dimen152
+\splinedepth@=\dimen153
+\splinetol@=\dimen154
+\splinelength@=\dimen155
+circles,
+\L@=\dimen156
+loaded)) (c:/texlive/2016/texmf-dist/tex/generic/xypic/xyv2.tex  Xy-pic option: Version 2 Compatibility v.3.8
+
+Xy-pic Warning: `\merge' redefined.
+
+
+Xy-pic Warning: `\stop' redefined.
+
+(c:/texlive/2016/texmf-dist/tex/generic/xypic/xyframe.tex  Xy-pic option: Frame and Bracket extension v.3.14 loaded) (c:/texlive/2016/texmf-dist/tex/generic/xypic/xymatrix.tex  Xy-pic option: Matrix feature v.3.14
+\Row=\count137
+\Col=\count138
+\queue@=\toks31
+\queue@@=\toks32
+\qcount@=\count139
+\qcount@@=\count140
+\matrixsize@=\count141
+loaded) (c:/texlive/2016/texmf-dist/tex/generic/xypic/xyarrow.tex  Xy-pic option: Arrow and Path feature v.3.9 path, \ar, loaded) loaded)) (c:/texlive/2016/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 1999/11/29 v2.0 AMS Commutatitive Diagrams
+\athelp@=\toks33
+\minaw@=\dimen157
+\bigaw@=\dimen158
+\minCDarrowwidth=\dimen159
+) (c:/texlive/2016/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2017/01/16 v4.06 for typesetting chemical formulae
+(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2017/03/18 v7019 L3 programming layer (loader) 
+(c:/texlive/2016/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2017/03/18 v7019 L3 programming layer (code)
+\c_max_int=\count142
+\l_tmpa_int=\count143
+\l_tmpb_int=\count144
+\g_tmpa_int=\count145
+\g_tmpb_int=\count146
+\g__prg_map_int=\count147
+\c_log_iow=\count148
+\l_iow_line_count_int=\count149
+\l__iow_line_target_int=\count150
+\l__iow_one_indent_int=\count151
+\l__iow_indent_int=\count152
+\c_zero_dim=\dimen160
+\c_max_dim=\dimen161
+\l_tmpa_dim=\dimen162
+\l_tmpb_dim=\dimen163
+\g_tmpa_dim=\dimen164
+\g_tmpb_dim=\dimen165
+\c_zero_skip=\skip162
+\c_max_skip=\skip163
+\l_tmpa_skip=\skip164
+\l_tmpb_skip=\skip165
+\g_tmpa_skip=\skip166
+\g_tmpb_skip=\skip167
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count153
+\c__fp_leading_shift_int=\count154
+\c__fp_middle_shift_int=\count155
+\c__fp_trailing_shift_int=\count156
+\c__fp_big_leading_shift_int=\count157
+\c__fp_big_middle_shift_int=\count158
+\c__fp_big_trailing_shift_int=\count159
+\c__fp_Bigg_leading_shift_int=\count160
+\c__fp_Bigg_middle_shift_int=\count161
+\c__fp_Bigg_trailing_shift_int=\count162
+\c__fp_rand_size_int=\count163
+\c__fp_rand_four_int=\count164
+\c__fp_rand_eight_int=\count165
+\l__sort_length_int=\count166
+\l__sort_min_int=\count167
+\l__sort_top_int=\count168
+\l__sort_max_int=\count169
+\l__sort_true_max_int=\count170
+\l__sort_block_int=\count171
+\l__sort_begin_int=\count172
+\l__sort_end_int=\count173
+\l__sort_A_int=\count174
+\l__sort_B_int=\count175
+\l__sort_C_int=\count176
+\c_empty_box=\box39
+\l_tmpa_box=\box40
+\l_tmpb_box=\box41
+\g_tmpa_box=\box42
+\g_tmpb_box=\box43
+\l__coffin_internal_box=\box44
+\l__coffin_internal_dim=\dimen166
+\l__coffin_offset_x_dim=\dimen167
+\l__coffin_offset_y_dim=\dimen168
+\l__coffin_x_dim=\dimen169
+\l__coffin_y_dim=\dimen170
+\l__coffin_x_prime_dim=\dimen171
+\l__coffin_y_prime_dim=\dimen172
+\c_empty_coffin=\box45
+\l__coffin_aligned_coffin=\box46
+\l__coffin_aligned_internal_coffin=\box47
+\l_tmpa_coffin=\box48
+\l_tmpb_coffin=\box49
+\l__coffin_display_coffin=\box50
+\l__coffin_display_coord_coffin=\box51
+\l__coffin_display_pole_coffin=\box52
+\l__coffin_display_offset_dim=\dimen173
+\l__coffin_display_x_dim=\dimen174
+\l__coffin_display_y_dim=\dimen175
+\l__box_top_dim=\dimen176
+\l__box_bottom_dim=\dimen177
+\l__box_left_dim=\dimen178
+\l__box_right_dim=\dimen179
+\l__box_top_new_dim=\dimen180
+\l__box_bottom_new_dim=\dimen181
+\l__box_left_new_dim=\dimen182
+\l__box_right_new_dim=\dimen183
+\l__box_internal_box=\box53
+\l__coffin_bounding_shift_dim=\dimen184
+\l__coffin_left_corner_dim=\dimen185
+\l__coffin_right_corner_dim=\dimen186
+\l__coffin_bottom_corner_dim=\dimen187
+\l__coffin_top_corner_dim=\dimen188
+\l__coffin_scaled_total_height_dim=\dimen189
+\l__coffin_scaled_width_dim=\dimen190
+) (c:/texlive/2016/texmf-dist/tex/latex/l3kernel/l3dvips.def
+File: l3dvips.def 2017/03/18 v7019 L3 Experimental driver: dvips
+)) (c:/texlive/2016/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2017/03/18 v7019 LaTeX2e option processing using LaTeX3 keys
+) (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3regex.sty
+Package: l3regex 2017/03/18 v7019 L3 Experimental regular expressions
+(c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-build.sty
+Package: l3tl-build 2017/03/18 v7019 L3 Experimental token list construction
+\l__tl_build_start_index_int=\count177
+\l__tl_build_index_int=\count178
+) (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3tl-analysis.sty
+Package: l3tl-analysis 2017/03/18 v7019 L3 Experimental token list analysis
+\l__tl_analysis_normal_int=\count179
+\l__tl_analysis_index_int=\count180
+\l__tl_analysis_nesting_int=\count181
+\l__tl_analysis_type_int=\count182
+) (c:/texlive/2016/texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
+Package: l3str-convert 2017/03/18 v7019 L3 Experimental string encoding conversions
+\l__str_internal_int=\count183
+\c__str_replacement_char_int=\count184
+)
+\l__regex_internal_a_int=\count185
+\l__regex_internal_b_int=\count186
+\l__regex_internal_c_int=\count187
+\l__regex_balance_int=\count188
+\l__regex_group_level_int=\count189
+\l__regex_mode_int=\count190
+\c__regex_cs_in_class_mode_int=\count191
+\c__regex_cs_mode_int=\count192
+\l__regex_catcodes_int=\count193
+\l__regex_default_catcodes_int=\count194
+\c__regex_catcode_D_int=\count195
+\c__regex_catcode_S_int=\count196
+\c__regex_catcode_L_int=\count197
+\c__regex_catcode_O_int=\count198
+\c__regex_catcode_A_int=\count199
+\c__regex_all_catcodes_int=\count266
+\l__regex_show_lines_int=\count267
+\l__regex_min_state_int=\count268
+\l__regex_max_state_int=\count269
+\l__regex_left_state_int=\count270
+\l__regex_right_state_int=\count271
+\l__regex_capturing_group_int=\count272
+\l__regex_min_pos_int=\count273
+\l__regex_max_pos_int=\count274
+\l__regex_current_pos_int=\count275
+\l__regex_start_pos_int=\count276
+\l__regex_success_pos_int=\count277
+\l__regex_current_char_int=\count278
+\l__regex_current_catcode_int=\count279
+\l__regex_last_char_int=\count280
+\l__regex_case_changed_char_int=\count281
+\l__regex_current_state_int=\count282
+\l__regex_step_int=\count283
+\l__regex_min_active_int=\count284
+\l__regex_max_active_int=\count285
+\l__regex_replacement_csnames_int=\count286
+\l__regex_match_count_int=\count287
+\l__regex_submatch_int=\count288
+\l__regex_zeroth_submatch_int=\count289
+) (c:/texlive/2016/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count290
+\calc@Bcount=\count291
+\calc@Adimen=\dimen191
+\calc@Bdimen=\dimen192
+\calc@Askip=\skip168
+\calc@Bskip=\skip169
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count292
+\calc@Cskip=\skip170
+) (c:/texlive/2016/texmf-dist/tex/latex/chemgreek/chemgreek.sty (c:/texlive/2016/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2017/03/18 v7019 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count293
+\g__xparse_grabber_int=\count294
+\l__xparse_m_args_int=\count295
+\l__xparse_mandatory_args_int=\count296
+\l__xparse_v_nesting_int=\count297
+)
+Package: chemgreek 2016/12/20 v1.1 interfaceforuprightgreeklettersforuseinchemistry (CN)
+\l__chemgreek_tmpa_int=\count298
+\g__chemgreek_tmpa_int=\count299
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmapping with sig. 'O{}mm' on line 336.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmapping with sig. 'O{}mm' on line 339.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmapping with sig. 'O{}mm' on line 342.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \newchemgreekmappingalias with sig. 'mm' on line 347.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \renewchemgreekmappingalias with sig. 'mm' on line 350.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \declarechemgreekmappingalias with sig. 'mm' on line 353.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \changechemgreeksymbol with sig. 'mmmm' on line 383.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \chemgreekmappingsymbol with sig. 'mm' on line 477.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \activatechemgreekmapping with sig. 'sm' on line 486.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \selectchemgreekmapping with sig. 'm' on line 491.
+.................................................
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count300
+\__mhchem_arrow_extPgfLength_skip=\skip171
+\mhchem@minispace@tmp=\skip172
+\mhchem@minibackspace@tmp=\skip173
+\mhchem@bondwidth=\skip174
+\mhchem@bondheight=\skip175
+\mhchem@smallbondwidth@tmpA=\skip176
+\mhchem@smallbondwidth@tmpB=\skip177
+\mhchem@smallbondwidth=\skip178
+\mhchem@bondtmp@minussidebearingleft=\skip179
+\mhchem@bondtmp@minussidebearingright=\skip180
+\l__mhchem_option_version_int=\count301
+\mhchem@option@minusmathsidebearingleft=\dimen193
+\mhchem@option@minusmathsidebearingright=\dimen194
+\mhchem@option@minustextsidebearingleft=\dimen195
+\mhchem@option@minustextsidebearingright=\dimen196
+) (c:/texlive/2016/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2017/02/23 v3.4.6 Typesetting CJK scripts with XeLaTeX
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+! Critical xeCJK error: "Require-XeTeX"
+! 
+! The xeCJK package requires XeTeX to function.
+! 
+! You must change your typesetting engine to "xelatex"
+! instead of plain "latex" or "pdflatex" or "lualatex".
+! Loading xeCJK will abort!
+! 
+! See the xeCJK documentation for further information.
+! 
+! For immediate help type H <return>.
+!...lain "latex" or "pdflatex" or "lualatex".
+! Loading xeCJK will abort!
+! 
+! See the xeCJK documentation for further information.
+! 
+! For immediate help type H <return>\use_none:n  ............................................  
+                                                                                                                                                                                                                                      
+l.43 \sys_if_engine_xetex:F { \msg_critical:nn { xeCJK } { Require-XeTeX } }
+                                                                            
+|'''''''''''''''''''''''''''''''''''''''''''''''
+| Reading the current file 'expl3' will stop.
+|...............................................
+
+)
+
+! LaTeX Error: Unknown option `UTF8' for package `xeCJK'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...tion `\CurrentOption ' for \@cls@pkg \space `\@currname '.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help\@err@                                                                   
+                                                                                                                                                                                                                                      
+l.12 ^^M
+        
+The option `UTF8' was not declared in package `xeCJK', perhaps you
+misspelled its name. Try typing  <return>  to proceed.
+
+No file reference-math-plain.aux.
+\openout1 = `reference-math-plain.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 14.
+(c:/texlive/2016/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
+LaTeX Font Info:    ... okay on input line 14.
+\AtBeginShipoutBox=\box54
+Package hyperref Info: Link coloring ON on input line 14.
+(c:/texlive/2016/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+(c:/texlive/2016/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count302
+)
+LaTeX Info: Redefining \ref on input line 14.
+LaTeX Info: Redefining \pageref on input line 14.
+LaTeX Info: Redefining \nameref on input line 14.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
+.................................................
+. chemgreek info: "mapping-activated"
+. 
+. Activating mapping `default' on line 14.
+.................................................
+\md@dimfile=\write4
+\openout4 = `reference-math-plain.dim'.
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 21.
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+(c:/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+stmry on input line 21.
+(c:/texlive/2016/texmf-dist/tex/latex/stmaryrd/ustmry.fd) [1
+
+] [2] [3] [4] [5] [6] [7] <xymatrix 3x3 334> [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 198.
+\BKM@file=\write5
+\openout5 = `reference-math-plain.out.ps'.
+
+(out/reference-math-plain.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 198.
+ ) 
+Here is how much of TeX's memory you used:
+ 21948 strings out of 493014
+ 413669 string characters out of 6137034
+ 585334 words of memory out of 5000000
+ 25290 multiletter control sequences out of 15000+600000
+ 9631 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,19n,70p,10392b,835s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on out/reference-math-plain.dvi (46 pages, 45124 bytes).
