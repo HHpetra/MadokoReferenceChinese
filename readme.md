@@ -11,8 +11,9 @@ Madoko可以在线使用[Madoko.net]，通过[onedrive]、[dropbox]或者[github
 * 安装完成后，使用以下命令简单的转换Markdown格式文件：  
   `madoko -v mydoc.mdk`
 * 默认转换为`mydoc.html`。也可以转换为pdf文件，使用`-v`参数中更详细的设置：  
-  `madoko --pdf -vv --odir=out mydoc`
-  `--odir`参数中的`out`填写你要输出文件的路径。为了可以生成pdf文件，你需要确保已经安装有LaTex，这也是生成数学公式和目录所必须的。我们推荐安装[TexLive]发行版，包含windows、Linux和MacOSX版本。[Madoko.net]使用的同样也是这个发行版。
+  `madoko --pdf -vv --odir=out mydoc` 
+ 
+`--odir`参数中的`out`填写你要输出文件的路径。为了可以生成pdf文件，你需要确保已经安装有LaTex，这也是生成数学公式和目录所必须的。我们推荐安装[TexLive]发行版，包含windows、Linux和MacOSX版本。[Madoko.net]使用的同样也是这个发行版。
 
 [TexLive]:    https://www.tug.org/texlive
 [MacTeX]:     http://tug.org/mactex/
@@ -36,7 +37,8 @@ Have fun,
 大家好，我是韦钧培（鱼人宝宝爱吃鱼）。经过苦苦的搜寻和尝试，我终于在一众Markdown编辑器中相中了Madoko这款编辑器，它完美的符合了我的需求：
 * 支持简单的Markdown
 * 方便输入数学公式
-* 支持交叉引用，如文献引用、脚注等
+* 支持交叉引用，如文献引用、脚注等  
+
 既可以用来创作日常小短文，也能写帮助文档，最重要的是可以写学术文献！文本格式使得它能支持git进行版本控制。这点word做不到，word成了我的备用方案。
 这么趁手的工具居然没多少人使用有点可惜。可能是没有一个完整的中文手册导致的，那么我将边学习使用，边翻译该文档。想参与的话可以提交PR，发现翻译有误的或者解释不清的地方欢迎指出。本人翻译经验不足，请多多包涵:)
 
