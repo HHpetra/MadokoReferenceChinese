@@ -456,57 +456,64 @@ Headings are written by prefixing with one or more hash characters (`#`):
     ###### Up to level six
 
 It is also possible to write level one and level two headers using
-a line of three or more equal (`=`) or dash (`-`) characters:
+a line of three or more equal (最后，转义序列' \/ '转换为空;这可以是广泛应用于分离某些结构。例如强调因为中为了显示重音，在单词间使用下划线，as in my_example_here。这时候就可以使用 `my\/_example_\/here`了。 
 
-    A level one heading
+# 语法：区块元素
+
+## 标题和规则 { #sec-heading }
+
+标题使用一个或者多个 (`#`)修饰:
+
+    # 一级标题
+    ## 二级标题
+    ### 三级标题
+    ...
+    ###### 直到六级标题
+
+也可以使用(`=`) 或者 (`-`)表示一级和二级标题：
+
+
+    一级标题
     ===================
 
-    A level two heading
+    二级标题
     -------------------
 
-But hash-headings are generally preferred since a three or more  dashes (or
-underscores or asterisks) are also used for horizontal rules:
+但是，井号标题是比较推荐的，因为三个短线也可以表示破折号：
 
 ~ Sample
-Above...
+以上...
 
 ------------
 
-and below the line.
+下面部分
 ~ 
 
 
-## Identities and labels {#sec-ids-labels}
+## 标识和标签 {#sec-ids-labels}
 
-Madoko has extensive support for numbering and referencing elements in a document.
-Elements are given an identity using attributes (see Section [#sec-attr]).
-For example, here we give an identifier `myheading` to a heading:
+Madoko广泛支持对文档中的元素和数字进行编号和引用。元素使用属性被赋予一个标识（详见[#sec-attr]）。例如我们给标题一个`myheading`标识。
 
 ~ Sample
-### A named heading { #myheading }
+### 一个标题名字 { #myheading }
 
-And we can refer to it
+你可以通过以下方式引用
 
-* Using an explicit [link](#myheading) 
-    (or [reference][#myheading]).
-* Or using an implicit link to Section [#myheading].
-* Or we can just see its label, namely &myheading;.
+* 使用一个明确的 [链接](#myheading) 
+    (或者 [参考][#myheading]).
+* 或者使用隐式的链接 [#myheading].
+* 或者只是显示标签的名字 &myheading;.
 ~
 
-Using an implicit link is generally recommended. 
-When type setting a reference such as Section [#myheading], Madoko automatically
-inserts a non-breakable space between "Section" and the reference[^refsp]. 
-Unlike LaTeX there is no need to insert such non-breakable space yourself. 
+推荐使用隐式的链接。当设置引用时（如Section [#myheading]）Madoko会自动添加一个不可分割的空格在"Section"和引用[^refsp]之间，不像LaTex还需要手动添加
+Using an implicit link is generally recommended. 当设置引用时
 
-[^refsp]: Madoko will still use a regular space if you use an explicit line 
-    break between "Section" and the reference in the source.
+[^refsp]: 如果使用显式行Madoko仍然使用常规空格在"Section"和引用之间断开
 
-Of course, we can refer to _any_ element that has an identity,
-like equations, figures, tables, etc. Here is an example with an equation
-(see Section [#sec-math]):
+当然，我们可以引用_任何_含有标签的元素。如方程、图片、表格等这是一个引用方程的例子(详见 [#sec-math]):
 
 ~~ Sample
-In Equation [#euler] we define [Euler]'s number $e$: 
+在 [#euler]方程中，我们定义了[Euler]'常数$e$: 
 
 ~ Equation { #euler }
 e = \lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n
@@ -515,6 +522,7 @@ e = \lim_{n\to\infty} \left( 1 + \frac{1}{n} \right)^n
 [Euler]: http://en.wikipedia.org/wiki/Euler's_number
 ~~
 
+隐式链接如 `[#myheading]`是显式链接 `[&myheading;](#myheading)`的缩写。
 An implicit link such as `[#myheading]` is a shorthand for an explicit link of
 the form `[&myheading;](#myheading)`, i.e. a local reference
 to `#myheading` which displays the entity `&myheading;`. In Madoko, an entity

@@ -22,11 +22,11 @@
 
 \begin{mdSnippets}
 %mdk-data-line={68}
-%mdk-data-line={1312}
+%mdk-data-line={1320}
 %mdk-begin-mathdefs
 \newcommand{\infer}[3]{#1 \vdash #2\,:#3}
 
-%mdk-data-line={1374}
+%mdk-data-line={1382}
 \begin{mdDisplaySnippet}[0b7ef03f51a1cfe7642f8dec63290f9b]%mdk
 \psset{unit=2cm} 
 \begin{pspicture*}(-0.5,-1.5)(4,2)
@@ -44,9 +44,9 @@
   \psplot[linewidth=1pt]{0.2}{3}{ x ln }
   \rput(1.6,-0.5){\color{blue}\fbox{$f(x)=\ln(x)$}} 
 \end{pspicture*}\end{mdDisplaySnippet}%mdk
-%mdk-data-line={1408}
+%mdk-data-line={1416}
 \begin{mdDisplaySnippet}[c5f694d981cb7c9a0d22d7c345b23a6d]%mdk
-%mdk-data-line={1412}
+%mdk-data-line={1420}
 \begin{tikzpicture}[ 
     media/.style={font={\footnotesize\sffamily}},
     wave/.style={
@@ -107,9 +107,9 @@
     % Internally the to path is translated to a similar bezier curve,
     % but the to path syntax hides the complexity from the user. 
 \end{tikzpicture}\end{mdDisplaySnippet}%mdk
-%mdk-data-line={1474}
+%mdk-data-line={1482}
 \begin{mdDisplaySnippet}[978a2cac0b346978e36123174d88a38e]%mdk
-%mdk-data-line={1479}
+%mdk-data-line={1487}
 \begin{tikzpicture}[scale=0.8,level/.style={sibling distance=60mm/#1}]
 \node [circle,draw] (z){$n$}
   child {node [circle,draw] (a) {$\frac{n}{2}$}
@@ -205,9 +205,9 @@
 \addlegendentry{estimate}
 \end{axis}
 \end{tikzpicture}\end{mdDisplaySnippet}%mdk
-%mdk-data-line={1593}
+%mdk-data-line={1601}
 \begin{mdDisplaySnippet}[b1681e56ede4eea7f309c3a95446c29d]%mdk
-%mdk-data-line={1602}
+%mdk-data-line={1610}
 \begin{tikzpicture}
 \begin{axis}[%
 scale only axis,
@@ -234,7 +234,7 @@ axis on top]
 \end{axis}
 \end{tikzpicture}\end{mdDisplaySnippet}%mdk
 \begin{mdDisplaySnippet}[aff15b1e067a1f01f390ed28d915d560]%mdk
-%mdk-data-line={1631}
+%mdk-data-line={1639}
 \begin{tikzpicture}
 \pgfplotstableread{ % Read the data into a table macro
 Label   First   Second  Third
@@ -256,7 +256,7 @@ Label   First   Second  Third
 \addplot [fill=red!80!yellow] table [x=Third, y expr=\coordindex] {\datatable};
 \end{axis}
 \end{tikzpicture}\end{mdDisplaySnippet}%mdk
-%mdk-data-line={3216}
+%mdk-data-line={3224}
 
 \end{mdSnippets}
 
