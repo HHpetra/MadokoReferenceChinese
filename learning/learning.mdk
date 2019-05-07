@@ -1,0 +1,16 @@
+Title         : 学习使用
+Author        : HHpetra
+Logo          : True
+Pdf Latex : xelatex
+Latex : xelatex
+Package :  [AutoFallBack=true]xeCJK
+
+[TITLE]
+
+~ abstract
+摘要内容
+~
+
+$E = mc^2$终于弄好了！  
+这下子没问题了吧？  
+# 开始写东西

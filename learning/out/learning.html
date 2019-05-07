@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="generator" content="Madoko, version 1.1.6" />
+  <meta name="viewport" content="initial-scale=1.0" />
+  <meta name="author" content="HHpetra" />
+  <title>学习使用</title>
+  <style type="text/css"  class="link">
+  /*# sourceURL=madoko.css */
+  
+  .madoko .toc>.tocblock .tocblock .tocblock {
+    margin-left: 2.25em;
+  }
+  .madoko .toc>.tocblock .tocblock {
+    margin-left: 1.5em;
+  }
+  .madoko .toc-contents>.tocblock>.tocitem {
+    font-weight: bold;
+  }
+  .madoko .toc {
+    margin-top: 1em;
+  }
+  .madoko p.para-continue {
+    margin-bottom: 0pt;
+  }
+  .madoko .para-block+p {
+    margin-top: 0pt;
+  }
+  .madoko ul.para-block, .madoko ol.para-block {
+    margin-top: 0pt;
+    margin-bottom: 0pt;
+  }
+  .madoko ul.para-end, .madoko ol.para-end {
+    margin-bottom: 1em;
+  }
+  .madoko dl {
+    margin-left: 0em;
+  }
+  .madoko blockquote {
+    font-style: italic;
+  }
+  .madoko a.localref {
+    text-decoration: none;
+  }
+  .madoko a.localref:hover {
+    text-decoration: underline;
+  }
+  .madoko .footnotes {
+    font-size: smaller;
+    margin-top: 2em;
+  }
+  .madoko .footnotes hr {
+    width: 50%;
+    text-align: left;
+  }
+  .madoko .footnote { 
+    margin-left: 1em;
+  }
+  .madoko .footnote-before {
+    margin-left: -1em;
+    width: 1em;
+    display: inline-block;
+  }
+  .madoko .align-center, .madoko .align-center>p {
+    text-align: center !important;
+  }
+  .madoko .align-center pre {
+    text-align: left;
+  }
+  .madoko .align-center>* {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .madoko .align-left, .madoko .align-left>p {
+    text-align: left !important;
+  }
+  .madoko .align-left>* {
+    margin-left: 0pt !important;
+    margin-right: auto !important;
+  }
+  .madoko .align-right, .madoko .align-right>p {
+    text-align: right !important;
+  }
+  .madoko .align-right>* {
+    margin-left: auto !important;
+    margin-right: 0pt !important;
+  }
+  .madoko .align-center>table,
+  .madoko .align-left>table,
+  .madoko .align-right>table {
+    text-align: left !important;
+  }
+  .madoko .equation-before {
+    float: right;
+  }
+  .madoko .bibitem {
+    font-size: smaller;
+  }
+  .madoko .bibsearch {
+    font-size: x-small;
+    text-decoration:none;
+    color: black;
+    font-family: "Segoe UI Symbol", Symbola, serif;
+  }
+  .madoko .block, .madoko .figure, .madoko .bibitem, .madoko .equation, .madoko div.math {
+    margin-top: 1ex;
+    margin-bottom: 1ex;
+  }
+  .madoko .figure {
+    padding: 0.5em;
+    margin-left: 0pt;
+    margin-right: 0pt;
+  }
+  .madoko .hidden {
+    display: none;
+  }
+  .madoko .invisible {
+    visibility: hidden;
+  }
+  .madoko.preview .invisible {
+    visibility: visible;
+    opacity: 0.5;
+  }
+  .madoko code.code, .madoko span.code {
+    white-space: pre-wrap;
+  }
+  .madoko hr, hr.madoko {
+    border: none;
+    border-bottom: black solid 1px;
+    margin-bottom: 0.5ex;
+  }
+  .madoko .framed>*:first-child {
+    margin-top: 0pt;
+  }
+  .madoko .framed>*:last-child {
+    margin-bottom: 0pt;
+  }
+  .madoko ul.list-style-type-dash {
+      list-style-type: none !important;
+  }
+  .madoko ul.list-style-type-dash > li:before {
+      content: "\2013"; 
+      position: absolute;
+      margin-left: -1em; 
+  }
+  .madoko table.madoko {
+    border-collapse: collapse;
+  }
+  .madoko td, .madoko th {
+    padding: 0ex 0.5ex;
+    margin: 0pt;
+    vertical-align: top;
+  }
+  .madoko .cell-border-left {
+    border-left: 1px solid black;
+  }
+  .madoko .cell-border-right {
+    border-right: 1px solid black;
+  }
+  .madoko thead>tr:first-child>.cell-line,
+  .madoko tbody:first-child>tr:first-child>.cell-line {
+    border-top: 1px solid black;
+    border-bottom: none;
+  }
+  .madoko .cell-line, .madoko .cell-double-line {
+    border-bottom: 1px solid black;
+    border-top: none;
+  }
+  .madoko .cell-double-line {
+    border-top: 1px solid black;
+    padding-top: 1.5px !important;
+  }
+  .madoko .input-mathpre .MathJax_Display {
+    text-align: left !important;
+  }
+  .madoko div.input-mathpre {
+    text-align: left;
+    margin-top: 1.5ex;
+    margin-bottom: 1ex;
+  }
+  .madoko .math-rendering {
+    text-align: left;
+    white-space: pre;
+    color: gray;
+  }
+  .madoko .mathdisplay {
+    text-align: center;
+  }
+  .madoko .pretty table {
+    border-collapse: collapse;
+  }
+  .madoko .pretty td {
+    padding: 0em;
+  }
+  .madoko .pretty td.empty {
+    min-width: 1.5ex;
+  }
+  .madoko .pretty td.expander {
+    width: 100em;
+  }
+  body.madoko, .madoko .serif {
+    font-family: Cambria,"Times New Roman","Liberation Serif","Times",serif;
+  }
+  .madoko .sans-serif {
+    font-family: "Calibri", "Optima", sans-serif;
+  }
+  .madoko .symbol {
+    font-family: "Segoe UI Symbol", Symbola, serif;
+  }
+  body.madoko {  
+    -webkit-text-size-adjust: 100%;       
+    text-rendering: optimizeLegibility;
+  }
+  body.madoko {
+    max-width: 88ex; 
+    margin: 1em auto;
+    padding: 0em 2em;  
+  }
+  body.preview.madoko {
+    padding: 0em 1em;
+  }
+  .madoko p {
+    text-align: justify;
+  }
+  .madoko h1, .madoko h2, .madoko h3, .madoko h4 { 
+    margin-top: 1.22em; 
+    margin-bottom: 1ex;
+  }
+  .madoko h1+p, .madoko h2+p, .madoko h3+p, .madoko h4+p, .madoko h5+p  { 
+    margin-top: 1ex;    
+  }
+  .madoko h5, .madoko h6 { 
+    margin-top: 1ex;
+    font-size: 1em;
+  }
+  .madoko h5 { 
+    margin-bottom: 0.5ex;
+  }
+  .madoko h5 + p {
+    margin-top: 0.5ex;
+  }
+  .madoko h6 { 
+    margin-bottom: 0pt;
+  }
+  .madoko h6 + p {
+    margin-top: 0pt;
+  }
+  .madoko pre, .madoko code, .madoko kbd, .madoko samp, .madoko tt, 
+  .madoko .monospace, .madoko .token-indent, .madoko .reveal pre, .madoko .reveal code, .madoko .email {
+    font-family: Consolas,"Andale Mono WT","Andale Mono",Lucida Console,Monaco,monospace,monospace;
+    font-size: 0.85em;
+  }
+  .madoko pre code, .madoko .token-indent {
+    font-size: 0.95em;
+  }
+  .madoko pre code {
+    font-family: inherit !important;
+  }
+  .madoko ol.linenums li {
+    background-color: white;
+    list-style-type: decimal;
+  }
+  .madoko .remote {
+    background-color: #F0FFF0;
+  }
+  .madoko .remote + * {
+    margin-top: 0pt;
+  }
+  @media print {
+    body.madoko {
+      font-size: 10pt;
+    }
+    @page {
+      margin: 1in 1.5in;
+    }
+  }
+  @media only screen and (max-device-width:1024px) {
+    body.madoko {
+      padding: 0em 0.5em;    
+    }
+    .madoko li {
+      text-align: left;
+    }
+  }
+  
+    </style>
+  
+  </head>
+<body class="madoko">
+
+<div class="body madoko" style="line-adjust:0">
+
+<div class="titleblock align-center para-block" style="text-align:center;line-adjust:0">
+<div class="titleheader align-center" style="text-align:center;line-adjust:0">
+<div class="title para-block" style="font-size:xx-large;font-weight:bold;margin-bottom:0.5ex;line-adjust:0">学习使用</div></div>
+<div class="authors align-center" style="text-align:center;width:80%;line-adjust:0"><table class="authorrow columns block" style="margin-top:2ex;width:100%;line-adjust:0">
+<tbody><tr><td class="author column" style="text-align:center;line-adjust:0">
+<div class="authorname" style="font-size:large;line-adjust:0">HHpetra</div></td></tr></tbody></table></div></div>
+<div class="abstract" style="margin-left:3em;margin-right:3em;font-size:small">
+<p class="p noindent"><strong class="strong-star2">Abstract.</strong> 摘要内容</p></div>
+<p class="p noindent">A famous equation is <svg  class="math-inline math-render-svg math" style="vertical-align:-0.0210em;height:0.9192em;width:4.1106em" viewBox='34.67 53.39 39.149 8.754' ><desc>$E = mc^2$</desc><g id='math-281a70'><use x='34.869' xlink:href='#g0-69' y='61.836'/><use x='45.565' xlink:href='#g1-61' y='61.836'/><use x='56.081' xlink:href='#g0-109' y='61.836'/><use x='64.829' xlink:href='#g0-99' y='61.836'/><use x='69.14' xlink:href='#g2-50' y='58.22'/></g></svg>, but another famous one is:
+</p>
+<div class="logomadoko" style="display:block;text-align:right;font-size:xx-small;margin-top:4em">Created with&nbsp;<a href="https://www.madoko.net">Madoko.net</a>.</div><span data-line=""></span></div>
+<svg id='math-svg-paths' style='display:none' version='1.1' viewBox='0 0 0 0' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'>
+<defs>
+<path d='M3.522 -1.269H3.285C3.264 -1.116 3.194 -0.704 3.103 -0.635C3.048 -0.593 2.511 -0.593 2.413 -0.593H1.13C1.862 -1.241 2.106 -1.437 2.525 -1.764C3.041 -2.176 3.522 -2.608 3.522 -3.271C3.522 -4.115 2.783 -4.631 1.89 -4.631C1.025 -4.631 0.439 -4.024 0.439 -3.382C0.439 -3.027 0.739 -2.992 0.809 -2.992C0.976 -2.992 1.179 -3.11 1.179 -3.361C1.179 -3.487 1.13 -3.731 0.767 -3.731C0.983 -4.226 1.458 -4.38 1.785 -4.38C2.483 -4.38 2.845 -3.836 2.845 -3.271C2.845 -2.664 2.413 -2.183 2.19 -1.932L0.509 -0.272C0.439 -0.209 0.439 -0.195 0.439 0H3.313L3.522 -1.269Z' id='g2-50'/>
+<path d='M7.054 -2.321C7.073 -2.371 7.103 -2.441 7.103 -2.461C7.103 -2.471 7.103 -2.57 6.984 -2.57C6.894 -2.57 6.874 -2.511 6.854 -2.451C6.207 -0.976 5.838 -0.309 4.134 -0.309H2.68C2.54 -0.309 2.521 -0.309 2.461 -0.319C2.361 -0.329 2.331 -0.339 2.331 -0.418C2.331 -0.448 2.331 -0.468 2.381 -0.648L3.059 -3.367H4.045C4.892 -3.367 4.892 -3.158 4.892 -2.909C4.892 -2.839 4.892 -2.72 4.822 -2.421C4.802 -2.371 4.792 -2.341 4.792 -2.311C4.792 -2.262 4.832 -2.202 4.922 -2.202C5.001 -2.202 5.031 -2.252 5.071 -2.401L5.639 -4.732C5.639 -4.792 5.589 -4.842 5.519 -4.842C5.43 -4.842 5.41 -4.782 5.38 -4.663C5.171 -3.905 4.991 -3.676 4.075 -3.676H3.138L3.736 -6.077C3.826 -6.426 3.836 -6.466 4.274 -6.466H5.679C6.894 -6.466 7.193 -6.177 7.193 -5.36C7.193 -5.121 7.193 -5.101 7.153 -4.832C7.153 -4.772 7.143 -4.702 7.143 -4.653S7.173 -4.533 7.263 -4.533C7.372 -4.533 7.382 -4.593 7.402 -4.782L7.601 -6.506C7.631 -6.775 7.582 -6.775 7.333 -6.775H2.301C2.102 -6.775 2.002 -6.775 2.002 -6.575C2.002 -6.466 2.092 -6.466 2.281 -6.466C2.65 -6.466 2.929 -6.466 2.929 -6.286C2.929 -6.247 2.929 -6.227 2.879 -6.047L1.564 -0.777C1.465 -0.389 1.445 -0.309 0.658 -0.309C0.488 -0.309 0.379 -0.309 0.379 -0.12C0.379 0 0.468 0 0.658 0H5.828C6.057 0 6.067 -0.01 6.137 -0.169L7.054 -2.321Z' id='g0-69'/>
+<path d='M3.945 -3.786C3.786 -3.786 3.646 -3.786 3.507 -3.646C3.347 -3.497 3.328 -3.328 3.328 -3.258C3.328 -3.019 3.507 -2.909 3.696 -2.909C3.985 -2.909 4.254 -3.148 4.254 -3.547C4.254 -4.035 3.786 -4.403 3.078 -4.403C1.733 -4.403 0.408 -2.979 0.408 -1.574C0.408 -0.677 0.986 0.11 2.022 0.11C3.447 0.11 4.284 -0.946 4.284 -1.066C4.284 -1.126 4.224 -1.196 4.164 -1.196C4.115 -1.196 4.095 -1.176 4.035 -1.096C3.248 -0.11 2.162 -0.11 2.042 -0.11C1.415 -0.11 1.146 -0.598 1.146 -1.196C1.146 -1.604 1.345 -2.57 1.684 -3.188C1.993 -3.756 2.54 -4.184 3.088 -4.184C3.427 -4.184 3.806 -4.055 3.945 -3.786Z' id='g0-99'/>
+<path d='M0.877 -0.588C0.847 -0.438 0.787 -0.209 0.787 -0.159C0.787 0.02 0.927 0.11 1.076 0.11C1.196 0.11 1.375 0.03 1.445 -0.169C1.455 -0.189 1.574 -0.658 1.634 -0.907L1.853 -1.803C1.913 -2.022 1.973 -2.242 2.022 -2.471C2.062 -2.64 2.142 -2.929 2.152 -2.969C2.301 -3.278 2.829 -4.184 3.776 -4.184C4.224 -4.184 4.314 -3.816 4.314 -3.487C4.314 -3.238 4.244 -2.959 4.164 -2.66L3.885 -1.504L3.686 -0.747C3.646 -0.548 3.557 -0.209 3.557 -0.159C3.557 0.02 3.696 0.11 3.846 0.11C4.154 0.11 4.214 -0.139 4.294 -0.458C4.433 -1.016 4.802 -2.471 4.892 -2.859C4.922 -2.989 5.45 -4.184 6.535 -4.184C6.964 -4.184 7.073 -3.846 7.073 -3.487C7.073 -2.919 6.655 -1.783 6.456 -1.255C6.366 -1.016 6.326 -0.907 6.326 -0.707C6.326 -0.239 6.675 0.11 7.143 0.11C8.08 0.11 8.448 -1.345 8.448 -1.425C8.448 -1.524 8.359 -1.524 8.329 -1.524C8.229 -1.524 8.229 -1.494 8.179 -1.345C8.03 -0.817 7.711 -0.11 7.163 -0.11C6.994 -0.11 6.924 -0.209 6.924 -0.438C6.924 -0.687 7.014 -0.927 7.103 -1.146C7.293 -1.664 7.711 -2.77 7.711 -3.337C7.711 -3.985 7.313 -4.403 6.565 -4.403S5.31 -3.965 4.941 -3.437C4.932 -3.567 4.902 -3.905 4.623 -4.144C4.374 -4.354 4.055 -4.403 3.806 -4.403C2.909 -4.403 2.421 -3.766 2.252 -3.537C2.202 -4.105 1.783 -4.403 1.335 -4.403C0.877 -4.403 0.687 -4.015 0.598 -3.836C0.418 -3.487 0.289 -2.899 0.289 -2.869C0.289 -2.77 0.389 -2.77 0.408 -2.77C0.508 -2.77 0.518 -2.78 0.578 -2.999C0.747 -3.706 0.946 -4.184 1.305 -4.184C1.465 -4.184 1.614 -4.105 1.614 -3.726C1.614 -3.517 1.584 -3.407 1.455 -2.889L0.877 -0.588Z' id='g0-109'/>
+<path d='M6.844 -3.258C6.994 -3.258 7.183 -3.258 7.183 -3.457S6.994 -3.656 6.854 -3.656H0.887C0.747 -3.656 0.558 -3.656 0.558 -3.457S0.747 -3.258 0.897 -3.258H6.844ZM6.854 -1.325C6.994 -1.325 7.183 -1.325 7.183 -1.524S6.994 -1.724 6.844 -1.724H0.897C0.747 -1.724 0.558 -1.724 0.558 -1.524S0.747 -1.325 0.887 -1.325H6.854Z' id='g1-61'/>
+</defs>
+</svg>
+
+</body>
+
+</html>
